@@ -79,11 +79,15 @@ cd ../
 
 - Accuracy Test
 ```bash
-python ujiAkurasiAll.py
+python ujiAkurasiModel.py
 ```
-- after run ujiAkurasiAll.py file, check the result in website:
+- after run ujiAkurasiModel.py file, check the result in website:
 ```bash
 localhost:5000
+```
+Accuracy Test for word variations
+```bash
+python ujiAkurasiKata.py
 ```
 -   run the program
 ```bash
