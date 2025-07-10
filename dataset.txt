@@ -1,0 +1,21 @@
+======
+bismillah
+================
+
+Dataset Real dari scrapping web wikipedia
+    https://huggingface.co/b4its/golytics/tree/main/dataset
+
+Dataset Sintetis:
+    Base Dataset:
+    https://huggingface.co/b4its/golytics/tree/main/generate/dataset
+
+    Variasi Kata:
+        https://huggingface.co/b4its/golytics/tree/main/randomForest/dataset
+    Forecast Arima:
+        https://huggingface.co/b4its/golytics/tree/main/arima/forecast
+
+=========================
+Reference
+==============================================
+Wikipedia jumlah penduduk url:
+    https://id.wikipedia.org/wiki/Daftar_kota_di_Indonesia_menurut_jumlah_penduduk

@@ -1,7 +1,7 @@
 # =======================
 # UKM Analytics
 # =======================
-Program untuk meningkatkan bisnis di UMKM untuk bisa memprediksi keuntungan, dan kerugian mereka per minggu untuk kedepan, dan juga memberikan saran untuk meningkatkan performa bisnis.
+program untuk meningkatkan bisnis di UMKM untuk bisa memprediksi keuntungan, dan kerugian mereka tiap minggu untuk kedepan, dan juga memberikan saran untuk meningkatkan performa bisnis.
 
 ## Requirements
 -   Python 3.12.3
@@ -19,15 +19,25 @@ Program untuk meningkatkan bisnis di UMKM untuk bisa memprediksi keuntungan, dan
 -   Rule-Based / Conditional Logic
 -   Date Arithmetic / Time Series Simulation
 
+## Web Scrapping Technique
+-   Regex Parsing
+-   Rate Limiting
+-   Data Cleaning / Heuristik
+-   Logging & Error Handling
+
+
 ## Models Evaluation Algorithm
 -   Mean Squared Error: MSE
 -   Mean Absolute Error: MAE
 -   R-squared metric R², or coefficient of determination: R²
 
+## Classificiation
+
 ## Models
 -   Multi Layer Perceptron
 -   AutoRegressive Integrated Moving Average: Arima
 -   Random Forest
+
 
 ## how to run this models at you're environtment
 - pip install packages

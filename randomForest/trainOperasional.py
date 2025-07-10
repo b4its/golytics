@@ -32,7 +32,7 @@ df['jenis_encoded'] = le.fit_transform(df['jenisBisnis'])
 df['isWeekend'] = df['isWeekend'].astype(int)
 
 # === Fitur dan Label
-X = df[['jenis_encoded', 'jamOperasional', 'isWeekend']]
+X = df[['jenis_encodejamOperasionald', '', 'isWeekend']]
 y = df['status']
 
 # === Scaling untuk MLP
@@ -55,12 +55,12 @@ rf.fit(X_train, y_train)
 
 y_pred_rf = rf.predict(X_test)
 acc_rf = accuracy_score(y_test, y_pred_rf)
-print(f"� Akurasi Random Forest: {acc_rf*100:.2f}%")
+print(f"Akurasi Random Forest: {acc_rf*100:.2f}%")
 
 # Simpan model RF ke `mlp/models`
 os.makedirs("models", exist_ok=True)
 joblib.dump(rf, "models/status_rf_model.pkl")
-print("✅ Model Random Forest disimpan ke: models/status_rf_model.pkl")
+print("Model Random Forest disimpan ke: models/status_rf_model.pkl")
 
 # =============================
 # === Train MLP (Optional) ====
@@ -72,8 +72,7 @@ model_mlp = StatusMLP(input_dim=3)
 criterion = nn.BCELoss()
 optimizer = torch.optim.Adam(model_mlp.parameters(), lr=0.001)
 
-print("⚙️ Melatih model StatusMLP...")
-
+print("Melatih model StatusMLP...")
 for epoch in range(500):
     model_mlp.train()
     output = model_mlp(X_train_tensor)

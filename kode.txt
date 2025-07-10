@@ -1,0 +1,15 @@
+=====
+bismillah
+============
+
+Kode Repo Lengkap dari github:
+https://github.com/b4its/golytics/
+
+======================================================
+beta code:
+https://github.com/b4its/business_trackerV1/
+https://github.com/b4its/businessTrackerV2/
+
+merge testing code:
+https://github.com/b4its/merge-golytics-models
+

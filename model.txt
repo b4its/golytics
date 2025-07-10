@@ -1,0 +1,10 @@
+====
+bismillah
+============
+
+model Multi Layer Perceptron:
+https://huggingface.co/b4its/golytics/tree/main/mlp/models
+
+model Random Forest:
+https://huggingface.co/b4its/golytics/tree/main/randomForest/models
+

@@ -14,7 +14,7 @@ class ProfitMLP(nn.Module):
             nn.ReLU(),
             nn.Linear(32, 16),
             nn.ReLU(),
-            nn.Linear(16, 2)  # Output: [keuntungan, kerugian]
+            nn.Linear(16, 2) 
         )
 
     def forward(self, x):
