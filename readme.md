@@ -31,12 +31,15 @@ program untuk meningkatkan bisnis di UMKM untuk bisa memprediksi keuntungan, dan
 -   Mean Absolute Error: MAE
 -   R-squared metric R², or coefficient of determination: R²
 
-## Classificiation
+## Classificiation Evaluation Algorithm
+-   Confusion Matrix
+-   Decision Tree
 
 ## Models
 -   Multi Layer Perceptron
 -   AutoRegressive Integrated Moving Average: Arima
 -   Random Forest
+-   Sentence Transformer
 
 
 ## how to run this models at you're environtment

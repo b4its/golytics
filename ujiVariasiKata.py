@@ -33,7 +33,7 @@ embeddings = normalize(embeddings)
 # =========================================
 # === Training Pohon Keputusan ============
 # =========================================
-print("� Membuat pohon keputusan untuk label 'keputusan'...")
+print("Membuat pohon keputusan untuk label 'keputusan'...")
 tree = DecisionTreeClassifier(max_depth=3, random_state=42)
 tree.fit(embeddings, labels_encoded)
 preds = tree.predict(embeddings)
@@ -49,7 +49,7 @@ plot_tree(
 plt.title("Decision Tree untuk Klasifikasi Label 'keputusan'")
 plt.savefig("accuracy-test/text/decision_tree_keputusan.png")
 plt.show()
-print("� Pohon keputusan disimpan ke 'accuracy-test/text/decision_tree_keputusan.png'")
+print("Pohon keputusan disimpan ke 'accuracy-test/text/decision_tree_keputusan.png'")
 
 # =========================================
 # === Confusion Matrix & Classification ===
