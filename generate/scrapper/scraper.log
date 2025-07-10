@@ -1,7 +1,3 @@
-2025-07-10 17:51:04,070 - INFO - Starting ethical Indonesian city population data collection...
-2025-07-10 17:51:04,071 - INFO - Extracting city data from Wikipedia Indonesia...
-2025-07-10 17:51:04,274 - INFO - Robots.txt check for https://id.wikipedia.org: Allowed
-2025-07-10 17:51:04,459 - INFO - Successfully extracted 108 cities from Wikipedia
-2025-07-10 17:51:04,459 - INFO - Using Wikipedia data (108 cities)
-2025-07-10 17:51:04,459 - INFO - Saving 108 city records to ../dataset/citizenCity.csv
-2025-07-10 17:51:04,460 - INFO - Successfully saved data to ../dataset/citizenCity.csv
+version https://git-lfs.github.com/spec/v1
+oid sha256:741ffa6de4844e20dac227fd747dc0cc2733ba4eb2af59b83121eb63dd51fda0
+size 589
