@@ -1,12 +1,10 @@
 # randomForest/rekomendasi_predictor.py
 
-import pandas as pd
+import pandas as pd, torch, random, os
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 from sentence_transformers import SentenceTransformer, util
-import torch
-import random
-import os
+
 
 
 # === Load data prediksi

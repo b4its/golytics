@@ -1,13 +1,4 @@
-import pandas as pd
-import numpy as np
-import torch
-import torch.nn as nn
-import joblib
-import os
-import mlflow
-import mlflow.pytorch
-import mlflow.sklearn
-
+import os, joblib, mlflow, mlflow.pytorch, mlflow.sklearn, torch, torch.nn as nn, numpy as np, pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score

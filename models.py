@@ -1,8 +1,7 @@
-import torch
-import torch.nn as nn
+import torch, torch.nn as nn
 
 class StatusMLP(nn.Module):
-    def __init__(self, input_dim=3):  # ← tambahkan default atau terima input_dim
+    def __init__(self, input_dim=3):
         super(StatusMLP, self).__init__()
         self.net = nn.Sequential(
             nn.Linear(input_dim, 16),
@@ -30,7 +29,7 @@ class ProfitMLP(nn.Module):
             nn.ReLU(),
             nn.Linear(64, 32),
             nn.ReLU(),
-            nn.Linear(32, 2)  # <== INI PENTING: sesuaikan jumlah output
+            nn.Linear(32, 2) 
         )
 
     def forward(self, x):
@@ -45,7 +44,7 @@ class StatusMLP(nn.Module):
             nn.Dropout(0.2),
             nn.Linear(64, 32),
             nn.ReLU(),
-            nn.Linear(32, 2)  # Contoh: status sehat atau tidak sehat
+            nn.Linear(32, 2) 
         )
 
     def forward(self, x):
