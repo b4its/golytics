@@ -11,6 +11,7 @@ Dataset Sintetis:
 
     Variasi Kata:
         https://huggingface.co/b4its/golytics/tree/main/randomForest/dataset
+        
     Forecast Arima:
         https://huggingface.co/b4its/golytics/tree/main/arima/forecast
 

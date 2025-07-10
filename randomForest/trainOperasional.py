@@ -87,4 +87,4 @@ for epoch in range(500):
 
 # Simpan model MLP ke `mlp/models`
 torch.save(model_mlp.state_dict(), "models/status_predictor.pth")
-print("✅ Model StatusMLP disimpan ke: models/status_predictor.pth")
+print("Model StatusMLP disimpan ke: models/status_predictor.pth")

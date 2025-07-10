@@ -3,13 +3,24 @@ bismillah
 ============
 
 Kode Repo Lengkap dari github:
-https://github.com/b4its/golytics/
+    https://github.com/b4its/golytics/
 
 ======================================================
 beta code:
-https://github.com/b4its/business_trackerV1/
-https://github.com/b4its/businessTrackerV2/
+    https://github.com/b4its/business_trackerV1/
+    (MLP, Sentence Bert)
+
+    https://github.com/b4its/businessTrackerV2/
+    (MLP, Sentence Bert)
 
 merge testing code:
-https://github.com/b4its/merge-golytics-models
+    https://github.com/b4its/merge-golytics-models 
+    (MLP, Random Forest, Decision Tree(ID3), Sarimax, Arima)
 
+pre beta code:
+=======================
+    https://github.com/fayyadh6899x/bussiness-model-10182524
+    (Random Forest, Decision Tree(ID3))
+
+    https://github.com/goob-ror/generalpurpose_arima
+    (Random Forest, Sarimax, Arima)

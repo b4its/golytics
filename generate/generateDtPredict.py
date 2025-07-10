@@ -128,4 +128,4 @@ with open(filename, mode="w", newline="") as file:
 
         writer.writerow(row)
 
-print(f"✅ File '{filename}' berhasil dibuat dengan data dari hari ini sampai {max_date.strftime('%Y-%m-%d')}.")
+print(f"File '{filename}' berhasil dibuat dengan data dari hari ini sampai {max_date.strftime('%Y-%m-%d')}.")

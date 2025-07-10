@@ -28,7 +28,7 @@ required_cols = ['modal', 'pemasukan', 'pengeluaran', 'jamOperasional',
                  'jenisBisnis', 'keuntungan', 'kerugian', 'tanggal']
 for col in required_cols:
     if col not in df.columns:
-        raise ValueError(f"❌ Kolom '{col}' tidak ditemukan di {data_path}")
+        raise ValueError(f"Kolom '{col}' tidak ditemukan di {data_path}")
 
 # Konversi numerik dan penanganan nilai negatif
 float_cols = ['modal', 'pemasukan', 'pengeluaran', 'keuntungan', 'kerugian']
@@ -73,7 +73,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 X_train_tensor = torch.tensor(X_train_scaled, dtype=torch.float32).to(device)
 y_train_tensor = torch.tensor(y_train_scaled, dtype=torch.float32).to(device)
 
-print("� Melatih model ProfitMLP...")
+print("Melatih model ProfitMLP...")
 for epoch in range(500):
     model.train()
     output = model(X_train_tensor)
@@ -89,10 +89,10 @@ for epoch in range(500):
 # === Simpan Model ke mlp/models/
 os.makedirs("models", exist_ok=True)
 torch.save(model.state_dict(), "models/profit_predictor.pth")
-print("✅ Model ProfitMLP berhasil disimpan.")
+print("Model ProfitMLP berhasil disimpan.")
 
 # === Forecast ARIMA
-print("\n� Membuat prediksi laba bersih (ARIMA)...")
+print("\nMembuat prediksi laba bersih (ARIMA)...")
 
 df['tanggal'] = pd.to_datetime(df['tanggal'])
 df = df.sort_values("tanggal")
@@ -116,7 +116,7 @@ try:
 
     os.makedirs("../arima/forecast", exist_ok=True)
     df_forecast.to_csv("../arima/forecast/hasilForecast_ARIMA.csv", index=False)
-    print("✅ Forecast ARIMA disimpan di: arima/forecast/hasilForecast_ARIMA.csv")
+    print("Forecast ARIMA disimpan di: arima/forecast/hasilForecast_ARIMA.csv")
 
 except Exception as e:
-    print(f"❌ Gagal membuat forecast ARIMA: {e}")
+    print(f"Gagal membuat forecast ARIMA: {e}")

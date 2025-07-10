@@ -66,7 +66,7 @@ with open(output_file, mode="w", newline="") as file:
 
         writer.writerow([tanggal, jenis, jam, is_weekend, status])
 
-print(f"✅ Dataset berhasil digenerate ke: {output_file}")
+print(f"Dataset berhasil digenerate ke: {output_file}")
 
 
 

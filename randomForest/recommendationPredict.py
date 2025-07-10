@@ -55,7 +55,7 @@ rekomendasi_variatif = {
         "Status operasional buruk. Perlu perbaikan dalam struktur tim atau pengelolaan waktu.",
     ],
     "jam_berlebihan": [
-        "⏱Jam kerja melebihi batas ideal. Kurangi jam operasional untuk meningkatkan efisiensi.",
+        "Jam kerja melebihi batas ideal. Kurangi jam operasional untuk meningkatkan efisiensi.",
         "Durasi kerja terlalu panjang. Evaluasi produktivitas harian.",
     ],
     "kerugian_tinggi": [
@@ -98,7 +98,7 @@ pred_label = le.inverse_transform(prediksi)
 
 output_data = []
 
-print("\n� Rekomendasi Otomatis Berbasis Random Forest + SBERT:\n")
+print("\nRekomendasi Otomatis Berbasis Random Forest + SBERT:\n")
 
 for i, row in df.iterrows():
     label = pred_label[i]
@@ -109,7 +109,7 @@ for i, row in df.iterrows():
         "kata": rekom
     })
 
-    print(f"� Tanggal: {row['tanggal']}")
+    print(f"Tanggal: {row['tanggal']}")
     print(f" - {rekom}\n")
 
 # Simpan ke CSV
