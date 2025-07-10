@@ -1,6 +1,6 @@
-=======================
+# =======================
 # UKM Analytics
-=======================
+# =======================
 Program untuk meningkatkan bisnis di UMKM untuk bisa memprediksi keuntungan, dan kerugian mereka per minggu untuk kedepan, dan juga memberikan saran untuk meningkatkan performa bisnis.
 
 ## Requirements
@@ -35,7 +35,7 @@ Program untuk meningkatkan bisnis di UMKM untuk bisa memprediksi keuntungan, dan
 pip install -r requirements.txt
 ```
 
-- generate json data
+- generate csv data
 ```bash
 cd generate
 python generateJamOperasional.py
@@ -43,7 +43,7 @@ python generateDtPredict.py
 ```
 wait it until finished
 
-- train the MLP models 
+- train the MLP models and Arima Forecast
 ```bash
 ├── dataset
 │   ├── dtOperasional.csv
