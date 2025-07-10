@@ -54,6 +54,10 @@ cd generate
 python generateJamOperasional.py
 python generateDtPredict.py
 ```
+- generate scrapping data for city and population density
+```bash
+python scrapCitizenCity.py
+```
 wait it until finished
 
 - train the MLP models and Arima Forecast

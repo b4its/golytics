@@ -4,6 +4,7 @@ bismillah
 
 Kode Repo Lengkap dari github:
     https://github.com/b4its/golytics/
+    (Multi Layer Perceptron, Random Forest, Decision Tree(ID3), Arima, Sentence Bert)
 
 ======================================================
 beta code:
