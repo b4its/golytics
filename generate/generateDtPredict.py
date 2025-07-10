@@ -1,8 +1,6 @@
-import csv
-import random
+import csv, random, os
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
-import os
 
 # Fungsi mapping jenis bisnis
 def get_business_type(business_name):
